@@ -6,6 +6,8 @@ p {
 }
 
 li,
+a:link,
+a:visited,
 a:hover {
     color: #F183BB;
     font-size: 16px;
@@ -39,18 +41,39 @@ td {
 
 html {
     font-size: 14px;
-    background-color: #8812C8;
+    background-color: #FEF7EB;
 }
 
-body {
-    width: 1200px;
-    margin: 0 auto;
+.login {
+    width: 300px;
+    margin: 0px 600px 208px 0px;
     background-color: #2F1C90;
     padding: 0 20px 20px 20px;
-    border: 5px solid #F4516A;
+    border: 2px solid #F4516A;
+    box-shadow: 16px 16px #F4516A;
+    position: fixed;
 }
 
-img {
+.bottom {
+    height: 80px;
+    background-color: #2F1C90;
+    padding: 0 10px 10px 10px;
+    border: 2px solid #F4516A;
+    margin-bottom: 0px;
+}
+
+.img1 {
+    display: block;
+    margin: 0 auto;
+}
+
+.footer {
+    margin-top: 15px;
+    margin-left: 15px;
+    text-align: center;
+}
+
+.content {
     display: block;
     margin: 0 auto;
 }
@@ -59,4 +82,14 @@ submit,
 button {
     color: #F4516A;
     background-color: #8812C8;
+}
+
+.harmony ul {
+    width: 210px;
+}
+.harmony li {
+    width: 100px;
+    height: 50px;
+    float: left;
+    display: block;
 }

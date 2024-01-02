@@ -48,7 +48,7 @@ myButton.onclick = function () {
     savID = localStorage.getItem("name")
     savuid = localStorage.getItem("uid")
     if (myName != savID) {
-        UC = prompt("Wish to register with this ID? Enter capital Y to continue")
+        UC = prompt("Registering... Enter capital Y to continue.")
         if (UC == "Y") {
             set();
         } else {
